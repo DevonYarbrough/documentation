@@ -331,7 +331,7 @@ Blockchain Status
 
     provider.getGasPrice().then((gasPrice) => {
         // gasPrice is a BigNumber; convert it to a decimal string
-        gasPriceString = gasPrice.toString();
+        let gasPriceString = gasPrice.toString();
 
         console.log("Current gas price: " + gasPriceString);
     });
